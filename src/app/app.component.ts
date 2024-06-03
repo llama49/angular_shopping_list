@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
+import { TabComponent } from './shared/tab/tab.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [TabComponent],
   template: `
-    <h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
-
-<button class="btn btn-secondary">Secondary</button>
+    <app-tab></app-tab>
   `,
   styles: [],
 })
