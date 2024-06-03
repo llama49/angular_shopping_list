@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { HomeComponent } from '../../home/home.component';
-import { BestProductsComponent } from '../../best-products/best-products.component';
 import { ProductToBuyComponent } from '../../product-to-buy/product-to-buy.component';
+import { BestProductsComponent } from '../../best-products/best-products.component';
 
 @Component({
   selector: 'app-tab',
